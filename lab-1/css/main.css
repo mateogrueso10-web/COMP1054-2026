@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body {
+  background: #000;
+  color: #000;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Page wrapper */
+#page {
+  background: #fff;
+  color: #000;
+  max-width: 780px;
+  max-height:;
+  margin: auto;
+  padding: 40px;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+/* Header spans full width */
+header {
+  margin-bottom: 30px;
+}
+
+/* Editorial headline */
+header h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 6px;
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 3px 6px;
+  margin-bottom: 10px;
+  column-span: all;
+}
+
+/* Nominee Dewey */
+header h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  text-align: center;
+  column-span: all;
+  margin: 10px 0 20px;
+}
+
+/* Subtitle under title */
+header p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Main article text in columns */
+main {
+  column-count: 3;
+  column-gap: 26px;                 /* tighter columns */
+  column-rule: 1px solid #e0e0e0;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 13.5px;                /* slightly smaller than modern */
+  line-height: 1.45;                /* denser */
+}
+
+/* Section headers */
+main h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0 6px;
+  break-inside: avoid;
+}
+
+/* Body paragraphs */
+main p {
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 0;
+  text-align: justify;
+  hyphens: auto;
+  text-indent: 1.25em;
+}
+
+/* Drop cap on first paragraph */
+main p:first-of-type::first-letter {
+  font-size: 15px;
+  text-indent: 1.25em;
+}
+
+main h4 + p {
+  text-indent: 0;
+}
+
