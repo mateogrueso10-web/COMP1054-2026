@@ -29,3 +29,15 @@ h1 {
     font-size: 3rem;
     letter-spacing: 2px;
 }
+
+h2 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 1rem;
+    color: palevioletred;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    margin-top: 1rem;
+    color: goldenrod;
+}
