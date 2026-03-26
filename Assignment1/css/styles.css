@@ -28,18 +28,29 @@ h1 {
     font-family: 'Cinzel', serif;
     font-size: 3rem;
     letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* TEXT SHADOW (dramatic effect) */
+    text-shadow: 2px 2px 5px rgba(255, 20, 147, 0.8), black 4px 4px 10px;
 }
 
 h2 {
     font-family: 'Cinzel', serif;
     margin-bottom: 1rem;
     color: palevioletred;
+
+    /* UNDERLINE EFFECT */
+    border-bottom: 2px solid palevioletred;
+    padding-bottom: 0.5rem;
 }
 
 h3 {
     font-family: 'Cinzel', serif;
     margin-top: 1rem;
     color: goldenrod;
+
+    /* GLOW EFFECT */
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.6);
 }
 
 /* FIGURE */
