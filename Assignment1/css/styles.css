@@ -41,3 +41,14 @@ h3 {
     margin-top: 1rem;
     color: goldenrod;
 }
+
+/* MAIN LAYOUT (FLEXBOX) */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+article {
+    max-width: 800px;
+}
