@@ -15,3 +15,11 @@ body {
     color: white;
     line-height: 1.6;
 }
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: deeppink;
+    color: white;
+}
