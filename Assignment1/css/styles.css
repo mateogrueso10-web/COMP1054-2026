@@ -62,3 +62,20 @@ section {
 p {
     margin-bottom: 1rem;
 }
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(255, 20, 147, 0.8);
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
