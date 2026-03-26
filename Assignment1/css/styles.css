@@ -42,6 +42,27 @@ h3 {
     color: goldenrod;
 }
 
+/* FIGURE */
+figure {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* IMAGE */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #8b0000;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+/* FIGCAPTION */
+figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
 /* MAIN LAYOUT (FLEXBOX) */
 main {
     display: flex;
