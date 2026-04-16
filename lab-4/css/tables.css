@@ -18,3 +18,16 @@ caption {
     font-size: 150%;
     font-weight: bold;
 }
+
+/* Header styling */
+th {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Zebra striping for rows */
+tr:nth-child(even) {
+    background-color: rgba(240,240,240,0.5);
+}
