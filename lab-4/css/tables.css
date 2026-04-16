@@ -1,12 +1,12 @@
 @charset "utf-8";
 html {
-    font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font: 100%/1.4 "Segoe UI", Arial, sans-serif;
 }
 
 /*Collapse borders */
 table {
     border-collapse: collapse;
-    width: 80%;
+    width: 95%;
     margin: 20px auto;
     table-layout: fixed; /* keeps columns even */
 }
@@ -16,6 +16,7 @@ caption {
     caption-side: top;
     margin-bottom: 10px;
     font-size: 150%;
+    font-weight: bold;
     font-weight: bold;
 }
 
@@ -44,4 +45,18 @@ tbody th {
     background-color: transparent;
     color: black;
     font-weight: normal;
+}
+
+/* Hide top-left empty header cell */
+thead tr:first-child th:first-child {
+    visibility: hidden;
+}
+
+/* STEP 10a: Zebra striping for rows */
+tbody tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.05);
+}
+
+tfoot td {
+    font-size: 60%;
 }
