@@ -2,3 +2,11 @@
 html {
     font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
+
+/* STEP 7: Collapse borders */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    table-layout: fixed; /* keeps columns even */
+}
