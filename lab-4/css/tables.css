@@ -31,3 +31,17 @@ th {
 tr:nth-child(even) {
     background-color: rgba(240,240,240,0.5);
 }
+
+/* adjust padding for th and td */
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Align table headings in the table body */
+tbody th {
+    text-align: left;
+    background-color: transparent;
+    color: black;
+    font-weight: normal;
+}
