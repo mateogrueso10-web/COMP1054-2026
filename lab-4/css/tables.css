@@ -1,62 +1,87 @@
 @charset "utf-8";
+
 html {
     font: 100%/1.4 "Segoe UI", Arial, sans-serif;
 }
 
-/*Collapse borders */
+/* Table */
 table {
     border-collapse: collapse;
-    width: 95%;
+    width: 90%;
     margin: 20px auto;
-    table-layout: fixed; /* keeps columns even */
+    table-layout: fixed;
 }
 
-/* Caption styling */
+/* Header */
+thead {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #ddd;
+    border-top: #ddd 1px solid;
+    text-align: right;
+}
+/* BUT the Team header (second column) centered */
+thead th:nth-child(2) {
+    text-align: left;
+}
+
+/* Caption */
 caption {
     caption-side: top;
     margin-bottom: 10px;
     font-size: 150%;
     font-weight: bold;
-    font-weight: bold;
 }
 
-/* Header styling */
-th {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    text-align: left;
-}
 
-/* Zebra striping for rows */
-tr:nth-child(even) {
-    background-color: rgba(240,240,240,0.5);
-}
 
-/* adjust padding for th and td */
+/* Cells */
 th, td {
     padding: 10px;
-    text-align: left;
 }
 
-/* Align table headings in the table body */
+/* Team column (left aligned) */
 tbody th {
     text-align: left;
-    background-color: transparent;
-    color: black;
     font-weight: normal;
 }
 
-/* Hide top-left empty header cell */
-thead tr:first-child th:first-child {
-    visibility: hidden;
+/* Rank column centered */
+td:first-child {
+    text-align: center;
 }
 
-/* STEP 10a: Zebra striping for rows */
-tbody tr:nth-child(even) {
+/* Team names left */
+tbody td:nth-child(2) {
+    text-align: left;
+}
+
+/* All other data right */
+td {
+    text-align: right;
+}
+
+/* Zebra striping */
+tbody tr:nth-child(odd) {
     background-color: rgba(0,0,0,0.05);
 }
 
+/* Row separators */
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
 tfoot td {
     font-size: 60%;
+    text-align: center;
 }
+
+/* Rank column (tight like NHL) */
+th:first-child,
+td:first-child {
+    width: 35px;
+    padding: 6px 2px;
+    text-align: center;
+}
+
