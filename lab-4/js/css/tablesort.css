@@ -1,0 +1,33 @@
+/* Make headers clickable */
+th[role="columnheader"]:not(.no-sort) {
+    cursor: pointer;
+    position: relative;
+}
+
+/* Default arrow (hidden) */
+th[role="columnheader"]:after {
+    content: "▲▼";
+    font-size: 0.6em;
+    color: #999;
+    margin-left: 6px;
+    visibility: hidden;
+}
+
+/* Show arrows on hover */
+th[role="columnheader"]:hover:after {
+    visibility: visible;
+}
+
+/* Ascending arrow */
+th[aria-sort="ascending"]:after {
+    content: "▲";
+    color: black;
+    visibility: visible;
+}
+
+/* Descending arrow */
+th[aria-sort="descending"]:after {
+    content: "▼";
+    color: black;
+    visibility: visible;
+}

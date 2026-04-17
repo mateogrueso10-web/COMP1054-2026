@@ -85,3 +85,9 @@ td:first-child {
     text-align: center;
 }
 
+/* Team logos with spacing */
+tbody th img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
