@@ -10,30 +10,32 @@
 </head>
 <body>
 	<header>
-		<h1>NHL Eastern Atlantic Division Standings</h1>
+		<h1>NHL 2025-2026 Eastern Atlantic Division Standings</h1>
 	</header>
 
 	<main>
         <table id="standings" class="tablesort"> 
-        <caption>2025–2026 Eastern Atlantic Division Standings</caption>
+        <caption>Eastern</caption>
+        <caption>Atlantic</caption>
         <thead>
             <tr>
-                <th>Rank</th>
-                <th>Team</th>
-                <th>GP</th>
-                <th>W</th>
-                <th>L</th>
-                <th>OTL</th>
-                <th>PTS</th>
+                <th data-sort-method="number">Rank</th>
+                <th data-sort-method="string">Team</th>
+                <th data-sort-method="number">GP</th>
+                <th data-sort-method="number">W</th>
+                <th data-sort-method="number">L</th>
+                <th data-sort-method="number">OTL</th>
+                <th data-sort-method="number">PTS</th>
             </tr>
         </thead>
         <!-- Optional footer -->
         <tfoot>
+            
 	        <tr>
-		        <td colspan="6">Data based on NHL standings</td>
+		        <td colspan="7">Data based on NHL standings</td>
 	        </tr>
         </tfoot>
-
+        <tbody>
         <tr>
             <td>1</td>
             <td><img src="images/Tampalogo.png" alt="Tampa Bay Lightning" width="20"> Tampa Bay Lightning</td>
@@ -106,6 +108,7 @@
             <td>13</td>
             <td>77</td>
         </tr>
+        </tbody>
     </table>
 </main>
 </body>

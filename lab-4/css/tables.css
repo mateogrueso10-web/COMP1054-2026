@@ -4,12 +4,27 @@ html {
     font: 100%/1.4 "Segoe UI", Arial, sans-serif;
 }
 
+/* background */
+body {
+    background-color: black;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
 /* Table */
 table {
+    background-color: white;
     border-collapse: collapse;
     width: 90%;
     margin: 20px auto;
     table-layout: fixed;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
 }
 
 /* Header */
@@ -25,15 +40,25 @@ thead th:nth-child(2) {
     text-align: left;
 }
 
-/* Caption */
-caption {
+/* Caption 1 */
+caption:nth-child(1) {
     caption-side: top;
     margin-bottom: 10px;
     font-size: 150%;
     font-weight: bold;
+    text-align: left;
+    color: white;
 }
 
-
+/* Caption 2 */
+caption:nth-child(2) {
+    caption-side: top;
+    margin-bottom: 10px;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
 
 /* Cells */
 th, td {
@@ -80,7 +105,7 @@ tfoot td {
 /* Rank column (tight like NHL) */
 th:first-child,
 td:first-child {
-    width: 35px;
+    width: 50px;
     padding: 6px 2px;
     text-align: center;
 }
@@ -88,6 +113,6 @@ td:first-child {
 /* Team logos with spacing */
 tbody th img {
     vertical-align: middle;
-    margin-right: 8px;
+    margin-right: 14px;
 }
 
