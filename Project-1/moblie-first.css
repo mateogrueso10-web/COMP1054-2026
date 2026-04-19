@@ -59,6 +59,33 @@ header p {
     color: var(--text);
 }
 
+/* nav */
+nav {
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+nav li {
+    padding: 0.8rem;
+}
+
 /* LINKS */
 a {
     color: #9ad1ff;
