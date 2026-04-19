@@ -20,8 +20,34 @@ body {
     padding: 1rem;
 }
 
+/* root variables */
+:root {
+     --primary: #4cc9f0;
+    --secondary: #7209b7;
+    --bg-dark: #1a1a2e;
+    --glass: rgba(255, 255, 255, 0.08);
+    --text: #f1f1f1;
+}
+
 /* HEADINGS */
 h1, h2, h3 {
     font-weight: bold;
     margin-bottom: 0.5rem;
+}
+
+/* LINKS */
+a {
+    color: #9ad1ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CONTAINER STYLE */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
