@@ -145,3 +145,8 @@ blockquote {
 .profile li {
     margin-bottom: 0.5rem;
 }
+
+/* feature styles */
+.features li {
+    margin-bottom: 1rem;
+}
