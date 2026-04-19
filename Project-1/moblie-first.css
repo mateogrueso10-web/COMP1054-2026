@@ -1,0 +1,20 @@
+/* =========================
+   Mateo Grueso - Style Stage
+   Mobile First Design
+   ========================= */
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
+    color: #fff;
+    padding: 1rem;
+}
