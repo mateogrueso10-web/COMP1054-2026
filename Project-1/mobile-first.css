@@ -216,13 +216,35 @@ blockquote {
     background: var(--secondary);
 }
 
-    
+/* desktop styles */
+@media (min-width: 1024px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
 
+    nav li {
+        padding: 0.8rem 1.5rem;
+    }
 
+    main {
+        flex-direction: row;
+        gap: 2rem;
+    }
 
+    section {
+        flex: 2;
+    }
 
+    aside {
+        flex: 1;
+    }
 
-
+    .page-footer ul {
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
 
 /* large screens */
 @media (min-width: 1024px) {
