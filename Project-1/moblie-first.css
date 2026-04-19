@@ -1,6 +1,7 @@
 /* =========================
    Mateo Grueso - Style Stage
    Mobile First Design
+   Modern Glass UI
    ========================= */
 
 /* RESET */
@@ -17,4 +18,10 @@ body {
     background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
     color: #fff;
     padding: 1rem;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }
