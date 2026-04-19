@@ -88,8 +88,7 @@ nav li {
 
 /* LINKS */
 a {
-    color: #9ad1ff;
-    text-decoration: none;
+    color: var(--primary);
 }
 
 a:hover {
@@ -123,4 +122,9 @@ h2 {
 h3 {
     margin: 1rem 0;
     color: var(--secondary);
+}
+
+/* lists */
+ul, ol {
+    margin-left: 1.5rem;
 }
