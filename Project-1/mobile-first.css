@@ -208,12 +208,10 @@ blockquote {
     margin-bottom: 0.5rem;
 }
 
-/* current staged style card */
-.current-stage {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 1rem;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+/* profile title */
+.profile h3 {
+    font-size: 1.5rem;
+    color: var(--primary);
 }
 
 /* feature styles */
