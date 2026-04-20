@@ -96,6 +96,16 @@ header h2 {
     color: var(--secondary);
 }
 
+header h3 {
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+
+header h4 {
+    font-size: 1.5rem;
+    color: var(--secondary);
+}
+
 header p {
     font-size: 1.2rem;
     color: var(--text);
@@ -171,6 +181,11 @@ h3 {
     color: var(--secondary);
 }
 
+h4 {
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
 /* lists */
 ul, ol {
     margin-left: 1.5rem;
@@ -191,6 +206,14 @@ blockquote {
 
 .profile li {
     margin-bottom: 0.5rem;
+}
+
+/* current staged style card */
+.current-stage {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
 /* feature styles */
